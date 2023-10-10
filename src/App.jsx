@@ -10,25 +10,25 @@ import code from "./assets/code.png";
 import home from "./assets/home.png";
 import cv from "./assets/cv.png";
 import "./App.css";
-import { Navbar, Button } from "react-daisyUI";
+// import { Navbar, Button } from 'react-daisyUI'
 
 function App() {
   return (
     <>
-      <Navbar className="navbar">
-        <Button className="button">
+      <div className="navbar">
+        <div className="button">
           <a href="#about">About</a>
-        </Button>
-        <Button className="button">
+        </div>
+        <div className="button">
           <a href="#skills">Skills</a>
-        </Button>
-        <Button className="button">
+        </div>
+        <div className="button">
           <a href="#work">Work</a>
-        </Button>
-        <Button className="button">
+        </div>
+        <div className="button">
           <a href="#contact">Contact</a>
-        </Button>
-      </Navbar>
+        </div>
+      </div>
       <img src={arrow1} className="arrow" alt="arrow1" id="about" />
       <div className="hello">Hello,</div>
       <h1 style={{ marginLeft: "50px" }}>
