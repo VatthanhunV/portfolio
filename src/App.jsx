@@ -10,7 +10,6 @@ import code from "./assets/code.png";
 import home from "./assets/home.png";
 import cv from "./assets/cv.png";
 import "./App.css";
-// import { Navbar, Button } from 'react-daisyUI'
 
 function App() {
   return (
@@ -87,6 +86,7 @@ function App() {
         <h2>Learn the Command Line Course</h2>
         <h2>Learn CSS Course</h2>
         <h2>Learn HTML Course</h2>
+        <h2>Learn SQL Course</h2>
       </div>
       <p className="skills" id="skills">
         SKILLS
@@ -150,15 +150,15 @@ function App() {
       </p>
       <div className="contactIcons ">
         <div className="imgContact">
-          <img src={telephone} alt="telephone" />
+          <img src={telephone} alt="telephone" className='img'/>
           <h2>+66 63 516 2896</h2>
-        </div>
+        </div><br />
         <div className="imgContact">
-          <img src={gmail} alt="gmail" />
+          <img src={gmail} alt="gmail" className='img'/>
           <h2>vatthanhun@gmail.com</h2>
-        </div>
+        </div><br />
         <div className="imgContact">
-          <img src={home} alt="home" />
+          <img src={home} alt="home" className='img'/>
           <h2>San-Sook Sub-Distric, Muang Chonburi, Chonburi 23030</h2>
         </div>
       </div>
